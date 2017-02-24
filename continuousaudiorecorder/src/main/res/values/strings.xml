@@ -1,0 +1,15 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Continuous Audio Recorder</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="discard">Discard</string>
+    <string name="start">Start</string>
+    <string name="audio_recorder">Audio Recorder</string>
+    <string name="start_end_time">"00:00:00"</string>
+    <string name="error_audio_recorder">Audio recorder error: %1$s</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="audio_db_album_name">Audio recordings</string>
+    <string name="error_no_permissions">The recorder requires `RECORD_AUDIO` , `READ_EXTERNAL_STORAGE and `WRITE_EXTERNAL_STORAGE` permissions.</string>
+</resources>

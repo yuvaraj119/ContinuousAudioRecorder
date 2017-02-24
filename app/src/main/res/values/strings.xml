@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContinuousAudioRecorder</string>
+    <string name="get_file_path">Get File Path</string>
+</resources>

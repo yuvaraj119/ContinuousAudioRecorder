@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_audio_recorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/bt_discard"
+                style="@style/Button"
+                android:text="@string/discard" />
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bt_start"
+                style="@style/Button"
+                android:text="@string/start" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tv_startTime"
+                style="@style/TextViewStartTime"
+                android:layout_weight="1.2" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/SeekBar"
+                android:layout_weight=".6" />
+
+            <TextView
+                android:id="@+id/tv_endTime"
+                style="@style/TextViewEndTime"
+                android:layout_weight="1.2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_play"
+                style="@style/Button"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/bt_pause"
+                style="@style/Button"
+                android:text="@string/pause" />
+
+        </LinearLayout>
+    </LinearLayout>
+</merge>
